@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.get("/", function (req, res) {
   console.log("Serving / to user.");
-  res.sendFile(path.join(__dirname + "/index.html"));
+  res.sendFile(path.join(__dirname + "/views/index.html"));
 });
 
 app.use("/", router);
