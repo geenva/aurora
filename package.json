@@ -1,9 +1,13 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "npm i --save-dev lite-server&&lite-server index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
