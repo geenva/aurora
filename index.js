@@ -1,9 +1,6 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const favicon = require("express-favicon");
-
-app.use("/img", express.static("img"));
 
 const router = express.Router();
 
